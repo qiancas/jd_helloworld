@@ -55,7 +55,7 @@
 10 13-20/1 * * * node /scripts/jd_joy_new.js >> /scripts/logs/jd_joy_new.log 2>&1
 # 宠汪汪积分兑换京豆
 #0 0-16/8 * * * node /scripts/jd_joy_reward.js >> /scripts/logs/jd_joy_reward.log 2>&1
-0 0-16/8 * * * node /scripts/jd_joy_reward_new.js >> /scripts/logs/jd_joy_reward_new.log 2>&1
+#0 0-16/8 * * * node /scripts/jd_joy_reward_new.js >> /scripts/logs/jd_joy_reward_new.log 2>&1
 # 宠汪汪喂食
 35 */1 * * * node /scripts/jd_joy_feedPets.js >> /scripts/logs/jd_joy_feedPets.log 2>&1
 # 宠汪汪邀请助力
